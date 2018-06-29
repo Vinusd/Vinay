@@ -1,0 +1,99 @@
+html{
+	background: url(marcus-wallis-542499-unsplash.jpg) no-repeat center center fixed;
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Helvetica Neue',sans-serif;
+}
+
+h2{
+	color: white;
+	font-family: 'Helvetica Neue',sans-serif;
+}
+.prof-box{
+	width: 325px;
+	height: 460px;
+	float: left;
+	background: rgba(0,0,0,0.4);
+	display:inline;
+	padding: 47px;
+	color: white;
+	margin:0 10px;
+	margin-top: 1px;
+
+	text-align: center;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+
+}
+
+.prof-pic{
+	border-radius: 100%;
+	height: 150px;
+	width: 150px;
+	box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+
+
+}
+
+.prof-box img:hover{
+	width: 170px;
+	height: 170px;
+	border-radius: 10px;
+	-webkit-transition:all 1s ease-in-out;
+	-moz-transition:all 0.9s ease-in-out;
+}
+
+h1{
+	font-weight: 100;
+	letter-spacing: 6;
+	font-size: 40px;
+}
+
+p{
+	font-weight: 200;
+	letter-spacing: 1;
+}
+
+.social-icons{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.line-break{
+	width: 325px;
+	margin: 0 auto;
+	border:1px solid white;
+}
+
+#icon:hover{
+	color: #516fad;
+}
+#icon2:hover{
+	color: rgb(205,72,107);
+}
+#icon1:hover{
+	color: #1da1f2;
+}
+
+.prof-box .content a{
+	display: inline-block;
+	padding: 5px 20px;
+	color: #fff;
+	border:2px solid #fff;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 20px;
+
+}
+
+.prof-box .content a:hover{
+	background: #fff;
+	color: #262626;
+
+}
+
+
+
+
+

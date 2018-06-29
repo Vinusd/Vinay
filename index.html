@@ -1,0 +1,49 @@
+<html>
+<head>
+<script>
+/*global document, x, eval, y, sqrt*/
+var result = document.getElementById('res');
+window.addEventListener('keypress', function (e) {
+    'use strict';
+    var keycode = e.which || e.keyCode,
+        valueEntered = String.fromCharCode(keycode);
+    result.value += valueEntered;
+});
+function addNum(x) {
+    'use strict';
+    result.value += x;
+}
+
+function deleted() {
+    'use strict';
+    result.value = "";
+}
+
+function answer(x) {
+    'use strict';
+    x = result.value;
+    x = eval(x);
+    result.value = x;
+}
+
+function power(y, x) {
+    'use strict';
+    x = result.value;
+    x = Math.pow(x, y);
+    result.value = x;
+}
+
+function getSqrt(x) {
+    'use strict';
+    x = result.value;
+    x = Math.sqrt(x);
+    result.value = x;
+}
+/****** simple calculator ******/
+/*****Husy 8/1/2017*****/
+</script>
+</head>
+<body>
+
+</body>
+</html>
